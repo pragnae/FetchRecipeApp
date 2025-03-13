@@ -12,7 +12,7 @@ Fetch Recipe App is a SwiftUI-based iOS application that retrieves and displays 
 - Unit tests for API fetching to ensure data integrity
 
 ## Screenshots
-![Recipe List](https://github.com/pragnae/FetchRecipeApp/screenshot.png)
+![Recipe List](screenshot.png)
 
 ## How to Run
 To run this project locally, follow these steps:
@@ -66,7 +66,6 @@ Test Suite 'RecipeServiceTests' passed at 2025-03-13 00:42:58.717.
 Executed 1 test, with 0 failures (0 unexpected) in 1.345 seconds.
 ```
 
-This confirms that the API returns valid data and the app can successfully decode it.
 
 ## Trade-offs and Decisions
 - Implemented custom image caching instead of using third-party libraries for better control.
