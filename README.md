@@ -12,7 +12,10 @@ Fetch Recipe App is a SwiftUI-based iOS application that retrieves and displays 
 - Unit tests for API fetching to ensure data integrity
 
 ## Screenshots
+Click on the image to view a cleared version.
 ![Recipe List](screenshot.png)
+
+
 
 ## How to Run
 To run this project locally, follow these steps:
