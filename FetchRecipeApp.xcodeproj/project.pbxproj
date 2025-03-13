@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B0AB05B82D82B8DF008E249E /* FetchRecipeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB05B72D82B8DF008E249E /* FetchRecipeAppApp.swift */; };
-		B0AB05BA2D82B8DF008E249E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB05B92D82B8DF008E249E /* ContentView.swift */; };
 		B0AB05BC2D82B8E1008E249E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AB05BB2D82B8E1008E249E /* Assets.xcassets */; };
 		B0AB05BF2D82B8E1008E249E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0AB05BE2D82B8E1008E249E /* Preview Assets.xcassets */; };
 		B0AB05C92D82B8E1008E249E /* FetchRecipeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB05C82D82B8E1008E249E /* FetchRecipeAppTests.swift */; };
 		B0AB05D32D82B8E1008E249E /* FetchRecipeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB05D22D82B8E1008E249E /* FetchRecipeAppUITests.swift */; };
 		B0AB05D52D82B8E1008E249E /* FetchRecipeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB05D42D82B8E1008E249E /* FetchRecipeAppUITestsLaunchTests.swift */; };
+		B0AB05E42D82BA96008E249E /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB05E32D82BA96008E249E /* Recipe.swift */; };
+		B0AB05E62D82BADA008E249E /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB05E52D82BADA008E249E /* RecipeService.swift */; };
+		B0AB05E82D82BB02008E249E /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB05E72D82BB02008E249E /* RecipeViewModel.swift */; };
+		B0AB05EA2D82BB50008E249E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB05E92D82BB50008E249E /* ContentView.swift */; };
+		B0AB05EC2D82BB6F008E249E /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB05EB2D82BB6F008E249E /* ImageCache.swift */; };
+		B0AB05EE2D82BBCC008E249E /* RecipeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB05ED2D82BBCC008E249E /* RecipeServiceTests.swift */; };
+		B0AB05F02D82BCAF008E249E /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB05EF2D82BCAF008E249E /* CachedAsyncImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		B0AB05B42D82B8DF008E249E /* FetchRecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchRecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AB05B72D82B8DF008E249E /* FetchRecipeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRecipeAppApp.swift; sourceTree = "<group>"; };
-		B0AB05B92D82B8DF008E249E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0AB05BB2D82B8E1008E249E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0AB05BE2D82B8E1008E249E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0AB05C42D82B8E1008E249E /* FetchRecipeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchRecipeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,13 @@
 		B0AB05CE2D82B8E1008E249E /* FetchRecipeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchRecipeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AB05D22D82B8E1008E249E /* FetchRecipeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRecipeAppUITests.swift; sourceTree = "<group>"; };
 		B0AB05D42D82B8E1008E249E /* FetchRecipeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRecipeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0AB05E32D82BA96008E249E /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		B0AB05E52D82BADA008E249E /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		B0AB05E72D82BB02008E249E /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		B0AB05E92D82BB50008E249E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0AB05EB2D82BB6F008E249E /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		B0AB05ED2D82BBCC008E249E /* RecipeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeServiceTests.swift; sourceTree = "<group>"; };
+		B0AB05EF2D82BCAF008E249E /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,12 @@
 			isa = PBXGroup;
 			children = (
 				B0AB05B72D82B8DF008E249E /* FetchRecipeAppApp.swift */,
-				B0AB05B92D82B8DF008E249E /* ContentView.swift */,
+				B0AB05E32D82BA96008E249E /* Recipe.swift */,
+				B0AB05E92D82BB50008E249E /* ContentView.swift */,
+				B0AB05EF2D82BCAF008E249E /* CachedAsyncImage.swift */,
+				B0AB05EB2D82BB6F008E249E /* ImageCache.swift */,
+				B0AB05E52D82BADA008E249E /* RecipeService.swift */,
+				B0AB05E72D82BB02008E249E /* RecipeViewModel.swift */,
 				B0AB05BB2D82B8E1008E249E /* Assets.xcassets */,
 				B0AB05BD2D82B8E1008E249E /* Preview Content */,
 			);
@@ -114,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				B0AB05C82D82B8E1008E249E /* FetchRecipeAppTests.swift */,
+				B0AB05ED2D82BBCC008E249E /* RecipeServiceTests.swift */,
 			);
 			path = FetchRecipeAppTests;
 			sourceTree = "<group>";
@@ -257,8 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0AB05BA2D82B8DF008E249E /* ContentView.swift in Sources */,
+				B0AB05EC2D82BB6F008E249E /* ImageCache.swift in Sources */,
+				B0AB05E42D82BA96008E249E /* Recipe.swift in Sources */,
+				B0AB05EA2D82BB50008E249E /* ContentView.swift in Sources */,
 				B0AB05B82D82B8DF008E249E /* FetchRecipeAppApp.swift in Sources */,
+				B0AB05E82D82BB02008E249E /* RecipeViewModel.swift in Sources */,
+				B0AB05F02D82BCAF008E249E /* CachedAsyncImage.swift in Sources */,
+				B0AB05E62D82BADA008E249E /* RecipeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0AB05C92D82B8E1008E249E /* FetchRecipeAppTests.swift in Sources */,
+				B0AB05EE2D82BBCC008E249E /* RecipeServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
