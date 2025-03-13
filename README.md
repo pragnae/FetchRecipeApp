@@ -62,7 +62,8 @@ FetchRecipeApp
 ```
 
 ## Unit Test Results
-Unit tests were conducted to validate the API fetching functionality.
+Unit tests were conducted to validate the API fetching functionality. 
+Additional UI tests have also been performed just ensure working of all modes(light, dark, landscape, potrait, switching), all 4 tests passed, results have not been included.
 
 ```
 Test Suite 'RecipeServiceTests' passed at 2025-03-13 00:42:58.717.
