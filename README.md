@@ -1,9 +1,4 @@
-Here’s a **professional and human-written** `README.md` that you can **copy and paste** directly into your project.
-
----
-
-```markdown
-# Fetch Recipe App
+Fetch Recipe App
 
 ## Overview
 Fetch Recipe App is a SwiftUI-based iOS application that retrieves and displays a list of recipes from a remote API. It is designed with performance and user experience in mind, utilizing Swift Concurrency (`async/await`) for efficient networking, image caching for optimized loading, and pull-to-refresh functionality for real-time updates.
